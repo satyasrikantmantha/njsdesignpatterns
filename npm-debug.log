@@ -1,0 +1,78 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'in' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json chat-example@0.0.0 No repository field.
+5 warn package.json assert@1.3.0 assert is also the name of a node core module.
+6 warn package.json crypto@0.0.3 crypto is also the name of a node core module.
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'in', null ]
+9 verbose cache add name=undefined spec="in" args=["in",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'in',
+10 verbose parsed url   path: 'in',
+10 verbose parsed url   href: 'in' }
+11 silly lockFile af10ef20-in in
+12 verbose lock in /home/ubuntu/.npm/af10ef20-in.lock
+13 silly lockFile af10ef20-in in
+14 silly lockFile af10ef20-in in
+15 verbose addNamed [ 'in', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 859d91d3-in in@
+18 verbose lock in@ /home/ubuntu/.npm/859d91d3-in.lock
+19 silly addNameRange { name: 'in', range: '*', hasData: false }
+20 verbose request where is /in
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 90193c181e979f35
+23 verbose url raw /in
+24 verbose url resolving [ 'https://registry.npmjs.org/', './in' ]
+25 verbose url resolved https://registry.npmjs.org/in
+26 verbose request where is https://registry.npmjs.org/in
+27 info trying registry request attempt 1 at 05:00:56
+28 http GET https://registry.npmjs.org/in
+29 http 404 https://registry.npmjs.org/in
+30 silly registry.get cb [ 404,
+30 silly registry.get   { date: 'Tue, 31 Mar 2015 05:00:57 GMT',
+30 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly registry.get     etag: '"3B6RQK0X5XBRCFB6LA5VAAZ0V"',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=0',
+30 silly registry.get     'content-length': '442',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     'x-served-by': 'cache-lhr6323-LHR',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1427778056.857526,VS0,VE626',
+30 silly registry.get     vary: 'Accept',
+30 silly registry.get     'keep-alive': 'timeout=10, max=50',
+30 silly registry.get     connection: 'Keep-Alive' } ]
+31 silly lockFile 859d91d3-in in@
+32 silly lockFile 859d91d3-in in@
+33 error 404 Not Found
+33 error 404
+33 error 404 'in' is not in the npm registry.
+33 error 404 You should bug the author to publish it
+33 error 404 It was specified as a dependency of 'chat-example'
+33 error 404
+33 error 404 Note that you can also install from a
+33 error 404 tarball, folder, or http url, or git url.
+34 error System Linux 3.14.13-c9
+35 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "in"
+36 error cwd /home/ubuntu/workspace
+37 error node -v v0.10.35
+38 error npm -v 1.4.28
+39 error code E404
+40 verbose exit [ 1, true ]

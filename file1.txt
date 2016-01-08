@@ -1,0 +1,4 @@
+This is first file which would be concatenated.
+
+Destination File should contain these contents from File 1
+
